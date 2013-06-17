@@ -13,3 +13,7 @@
 (email-field "Jamie")
 (use 'hiccup.element)
 (mail-to "psiral@yhahoo.com" "Jamie")
+(def x 1)
+x
+(def ^:dynamic x 1)
+x

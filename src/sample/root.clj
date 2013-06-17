@@ -10,6 +10,7 @@
   (GET "/"      [] (render-template "index"))
   (GET "/jamie" [] (render-template "jamie"))
   (GET "/login" [] (render-template "login"))
+  (GET "/game"  [] (render-template "game"))
   (controller-router 'sample.controller)
   (not-found (render-template "not_found" :template-root "sample/view" :ns `sample.view.view-helpers)))
 

@@ -10,6 +10,7 @@
  	(unordered-list [(link-to "/" "Home") 
  									 (link-to "/jamie" "Jamie")
  									 (link-to "/game" "Game")
- 									 (link-to "/login" "Login")])
+ 									 (link-to "/login" "Login")
+ 									 (link-to "/blog" "Blog")])
   (eval (:template-body joodo.views/*view-context*))
 ]]]
